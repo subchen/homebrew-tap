@@ -5,10 +5,12 @@ class Frep < Formula
   version "v1.2.2"
   sha256 "9e6ac9253c8518cadd55dd1627e8c78b76924c84af8825d08ce5656011399aa1"
 
+  bottle :unneeded
+
   # depends_on "go"
 
   def install
-    bin.install "frep"
+    bin.install "frep-1.2.2-darwin-amd64" => "frep"
     # bin.install_symlink "frep-1.2.2-darwin-amd64" => "frep"
   end
 end
