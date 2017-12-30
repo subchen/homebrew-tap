@@ -12,6 +12,6 @@ class PowerlineGo < Formula
   end
 
   test do
-    system "#{bin}/powerline-go --help"
+    system "#{bin}/powerline-go"
   end
 end
