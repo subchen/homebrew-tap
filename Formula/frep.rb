@@ -7,10 +7,11 @@ class Frep < Formula
 
   bottle :unneeded
 
-  # depends_on "go"
-
   def install
     bin.install "frep-1.2.2-darwin-amd64" => "frep"
-    # bin.install_symlink "frep-1.2.2-darwin-amd64" => "frep"
+  end
+  
+  test do
+    system "#{bin}/frep --version"
   end
 end
