@@ -11,7 +11,7 @@ class PowerlineGo < Formula
     bin.install "powerline-go-darwin-amd64" => "powerline-go"
   end
 
-  test do
-    system "#{bin}/powerline-go"
+  def test
+    system "powerline-go"
   end
 end
