@@ -11,7 +11,7 @@ class Frep < Formula
     bin.install "frep-1.2.2-darwin-amd64" => "frep"
   end
   
-  test do
-    system "#{bin}/frep --version"
+  def test
+    system "frep --version"
   end
 end
