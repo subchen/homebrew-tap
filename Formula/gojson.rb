@@ -2,6 +2,7 @@ class Gojson < Formula
   desc "Automatically generate Go (golang) struct definitions from example JSON"
   homepage "https://github.com/ChimeraCoder/gojson"
   url "https://github.com/ChimeraCoder/gojson/archive/v1.0.0.tar.gz"
+  version "1.0.0"
   sha256 "6acc1246547cf1d28b4a6ab0b83948076ac269e91efea9729b0d958d308357e2"
 
   depends_on "go"
