@@ -15,7 +15,6 @@ class Gojson < Formula
     cd srcpath do
       system "go", "build", "-o", "_build/gojson", "./gojson"
       bin.install "_build/gojson" => "gojson"
-      #prefix.install_metafiles
     end
   end
 
