@@ -3,7 +3,7 @@ class Frep < Formula
   homepage "https://github.com/subchen/frep"
   url "https://github.com/subchen/frep/releases/download/v1.3.4/frep-1.3.4-darwin-amd64"
   version "1.3.4"
-  sha256 "22a57413160b3372082ad492477ac9cd860c73fea41f7d6ee073f86aa38f18c3"
+  sha256 "b9fd2950159c9b70a664e9fa96430897133521e30c8846f5db82093baee93ba5"
 
   bottle :unneeded
 
