@@ -5,7 +5,7 @@ class Frep < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/subchen/frep/releases/download/v1.3.13/frep-1.3.13-darwin-amd64"
-    sha256 "8429f760609938be3c7bddde8ab7857538d1b1ee5bb0158b2d9f67dec3719dd8"
+    sha256 "e0056a958134d6e368dd87c48bda701e081c94d7690cf341a1fb543e7500e897"
 
     def install
       bin.install "frep-1.3.13-darwin-amd64" => "frep"
@@ -13,7 +13,7 @@ class Frep < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/subchen/frep/releases/download/v1.3.13/frep-1.3.13-darwin-arm64"
-    sha256 "c2b43e3670a37e09f03bfb362da3a575137f5fa1158e255f8af602fd5e187431"
+    sha256 "0bc5db3b73465a98402fd38b3d998888b91b8cafdc8dc93a6a390093c5ed3cc7"
 
     def install
       bin.install "frep-1.3.13-darwin-arm64" => "frep"
