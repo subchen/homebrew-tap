@@ -5,7 +5,7 @@ class Gometalinter < Formula
   version "2.0.3"
   sha256 "e16b298ca7cbc2e2476e2b9e4fd6910e3b6758301db54592d6683b11a0fc50f4"
 
-  bottle :unneeded
+  #bottle :unneeded
 
   def install
     bin.install "gometalinter"
